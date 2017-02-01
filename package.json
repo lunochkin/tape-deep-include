@@ -1,0 +1,25 @@
+{
+    "name": "tape-deep-include",
+    "version": "0.0.1",
+    "description": "Tape deepInclude assertion",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/maksim-lunochkin/tape-deep-include.git"
+    },
+    "homepage": "https://github.com/maksim-lunochkin/tape-deep-include",
+    "keywords": [
+        "tap",
+        "test",
+        "deep",
+        "include",
+        "assert"
+    ],
+    "author": "@maksim-lunochkin",
+    "license": "MIT",
+    "dependencies": {
+        "tape": "~4",
+        "deep-equal": "~1.0.1",
+        "defined": "~1.0.0"
+    }
+}
