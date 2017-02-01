@@ -1,5 +1,7 @@
 #tape-deep-include
 
+[![npm version](https://img.shields.io/npm/v/tape-deep-include.svg)](https://www.npmjs.com/package/tape-deep-include)
+
 tape deepInclude assertion
 
 example
