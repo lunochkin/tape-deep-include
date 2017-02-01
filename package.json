@@ -1,8 +1,9 @@
 {
     "name": "tape-deep-include",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Tape deepInclude assertion",
     "main": "index.js",
+    "types": "index.d.ts",
     "repository": {
         "type": "git",
         "url": "git://github.com/maksim-lunochkin/tape-deep-include.git"
