@@ -1,12 +1,15 @@
 {
     "name": "tape-deep-include",
-    "version": "0.0.4",
+    "version": "0.1.0",
     "description": "Tape deepInclude assertion",
     "main": "index.js",
     "types": "index.d.ts",
     "repository": {
         "type": "git",
         "url": "git://github.com/maksim-lunochkin/tape-deep-include.git"
+    },
+    "scripts": {
+        "test": "tape ./lib/test.js"
     },
     "homepage": "https://github.com/maksim-lunochkin/tape-deep-include",
     "keywords": [
@@ -18,9 +21,15 @@
     ],
     "author": "@maksim-lunochkin",
     "license": "MIT",
+    "peerDependencies": {
+        "tape": "~4"
+    },
     "dependencies": {
-        "tape": "~4",
         "deep-equal": "~1.0.1",
         "defined": "~1.0.0"
+    },
+    "devDependencies": {
+        "sinon": "^1.17.7",
+        "tape": "~4"
     }
 }
